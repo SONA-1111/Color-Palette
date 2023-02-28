@@ -1,0 +1,27 @@
+.page-container {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.siteWrapper {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+body.theme-dark .siteWrapper {
+    /*background-image: url('../../assets/images/bg-dark-pink.svg');*/
+    background-color: rgb(3, 5, 19);
+}
+
+body.theme-light .siteWrapper {
+    /*background-image: url('../../assets/images/bg.svg');*/
+    background-color: rgb(212, 151, 161);
+}

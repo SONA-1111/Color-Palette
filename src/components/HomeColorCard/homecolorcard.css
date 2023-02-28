@@ -1,0 +1,33 @@
+.home-card {
+    padding: 9px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.home-card-colors {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(54px, 54px));
+}
+
+.home-card-color {
+    width: 54px;
+    height: 36px;
+}
+
+.home-card-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+}
+
+.home-card-title {}
+
+.home-card-code {
+    font-weight: bold;
+    color: rgba(10, 61, 98, 1.0);
+}

@@ -1,0 +1,33 @@
+.error404 {
+    padding: 160px 0 0 60px;
+    text-align: center;
+}
+
+.error404-oops {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #c0392b;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.error404 span, .error404-text {
+    font-size: 30px;
+}
+
+.error404-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3498db;
+    padding: 4px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: solid 1px #2c3e50;
+}
+
+body.theme-dark .error404 {
+    color: white
+}

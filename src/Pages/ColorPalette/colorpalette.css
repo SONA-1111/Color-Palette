@@ -1,0 +1,7 @@
+.palette-colors-container {
+    height: calc(100% - 82px);
+    text-transform: uppercase;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(20%, 20%));
+}

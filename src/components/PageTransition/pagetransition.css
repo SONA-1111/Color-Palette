@@ -1,0 +1,39 @@
+.pageTransition {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.animate-l2r {
+    animation: leftToRight 1s ease-in-out forwards;
+    -webkit-animation: leftToRight 1s ease-in-out forwards;
+}
+
+.animate-r2l {
+    animation: rightToLeft 1s ease-in-out forwards;
+    -webkit-animation: rightToLeft 1s ease-in-out forwards;
+}
+
+@keyframes leftToRight {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+@keyframes rightToLeft {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -100vw;
+    }
+}

@@ -1,0 +1,9 @@
+.home-card-container {
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, minmax(288px, 288px)); */
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    display: flex;
+}

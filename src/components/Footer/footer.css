@@ -1,0 +1,27 @@
+footer {
+    height: 39px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top: solid 1px rgba(243, 156, 18, 1.0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+
+}
+
+.fa-solid {
+    color: #5e2da9;
+}
+body.theme-light footer {
+    background-color: #080d43;
+ }
+ body.theme-light footer p {
+    color: #ffffff;
+  }
+  body.theme-light .fa-solid {
+    color: #f8e71c;
+  }  
